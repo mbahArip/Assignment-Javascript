@@ -10,7 +10,7 @@
 
 /* Soal 2C
  * Soal: Dengan melakukan komen pada baris 26, apakah baris 28 dapat dieksekusi?
- * Jawaban: Tidak, karena variable asal di baris 26, di deklarasikan di dalam scope function perkenalan.
+ * Jawaban: Tidak, karena variable asal di baris 28, di deklarasikan di dalam scope function perkenalan.
  */
 
 // Soal 3 - Lakukan destructuring array berikut, sehingga Budi tersimpan pada variable a, Sita tersimpan pada variable b, dan Ayu tersimpan pada variable c.

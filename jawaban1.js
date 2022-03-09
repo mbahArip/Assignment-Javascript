@@ -14,8 +14,8 @@ function perkenalan() {
 	return console.log('perkenalan nama saya ' + nama + ' nomor urut ' + a + ' sekarang sedang mengikuti ' + b + ' berasal dari ' + asal);
 }
 
+// Baris 21 - 23
 if (terdaftar === true) {
-  // Baris 22
 	console.log(nama + ' terdaftar sebagai kegiatan kampus merdeka');
 }
 
@@ -25,10 +25,10 @@ if (terdaftar === true) {
 console.log('Array = ' + lengkap_arr[2]);
 
 a = b;
-// Error karena const tidak dapat diubah
+// Baris 26 - Error karena const tidak dapat diubah
 // nama = b;
 
-// Error karena asal berada di scope function perkenalan
+// Baris 28 - Error karena asal berada di scope function perkenalan
 // console.log('asal diakses = ' + asal);
 console.log('a adalah = ' + a);
 console.log('b adalah = ' + b);
